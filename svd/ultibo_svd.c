@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-void main() {
+void test_svd() {
 /*
  * Input to dsvd is as follows:
  *   a = mxn matrix to be decomposed, gets overwritten with u
