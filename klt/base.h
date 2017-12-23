@@ -14,15 +14,21 @@
 #endif
 
 #ifndef uint
-#define uint unsigned int
+	#ifndef ULTIBO
+	#define uint unsigned int
+	#endif
 #endif
 
 #ifndef ushort
-#define ushort unsigned short
+	#ifndef ULTIBO
+	#define ushort unsigned short
+	#endif
 #endif
 
 #ifndef ulong
-#define ulong unsigned long
+	#ifndef ULTIBO
+	#define ulong unsigned long
+	#endif
 #endif
 
 #ifndef max
